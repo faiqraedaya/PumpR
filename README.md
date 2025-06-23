@@ -1,5 +1,4 @@
 # PumpR
-*Centrifugal Pump Simulator*
 
 ## Overview
 PumpR is a desktop application for simulating the performance of centrifugal pumps handling pure fluids or mixtures. The simulator provides detailed pump performance calculations and visualizations based on user-defined fluid properties and pump parameters.
@@ -22,21 +21,19 @@ PumpR is a desktop application for simulating the performance of centrifugal pum
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/faiqraedaya/PumpR
    cd "PumpR"
    ```
 2. **Install dependencies:**
-   You can use pip to install the required packages:
    ```bash
    pip install PyQt5 matplotlib numpy CoolProp
    ```
 
 ## Usage
-
-To launch the application, run:
-```bash
-python main.py
-```
+1. To launch the application, run:
+   ```bash
+   python main.py
+   ```
 
 ## File Structure
 - `main.py` — Entry point for the application
@@ -47,8 +44,3 @@ python main.py
 
 ## License
 This project is provided under the MIT License.
-
-## Acknowledgments
-- [CoolProp](http://www.coolprop.org/) for thermophysical property calculations.
-- PyQt5 for the GUI framework.
-- matplotlib for plotting and visualization.
