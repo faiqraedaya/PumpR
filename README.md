@@ -9,7 +9,6 @@ PumpR is a simple desktop application for simulating the performance of centrifu
 - User input for fluid composition, operating conditions, and pump parameters
 - Calculates pump performance metrics (flow, head, power, efficiency, specific speed, NPSH, etc.)
 - Visualizes performance curves and maps using matplotlib
-- Results summary in a clear, readable format
 
 ## Requirements 
 - Python 3.7+
@@ -34,6 +33,10 @@ PumpR is a simple desktop application for simulating the performance of centrifu
    ```bash
    python main.py
    ```
+2. Set the temperature, inlet & outlet pressure, and feed rate.
+3. Select the pure fluid or define a mixture by selecting materials from CoolProp's database.
+4. Run the simulation.
+5. View and export the pump performance results & plots.
 
 ## License
 This project is provided under the MIT License.
