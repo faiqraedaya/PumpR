@@ -1,13 +1,13 @@
 # PumpR
 
 ## Overview
-PumpR is a desktop application for simulating the performance of centrifugal pumps handling pure fluids or mixtures. The simulator provides detailed pump performance calculations and visualizations based on user-defined fluid properties and pump parameters.
+PumpR is a simple desktop application for simulating the performance of centrifugal pumps handling pure fluids or mixtures
 
 ## Features
 - Interactive GUI built with PyQt5
-- Supports both pure fluids and mixtures (using CoolProp)
+- Supports both pure fluids and mixtures using CoolProp
 - User input for fluid composition, operating conditions, and pump parameters
-- Calculates pump performance (flow, head, power, efficiency, specific speed, NPSH, etc.)
+- Calculates pump performance metrics (flow, head, power, efficiency, specific speed, NPSH, etc.)
 - Visualizes performance curves and maps using matplotlib
 - Results summary in a clear, readable format
 
