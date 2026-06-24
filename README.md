@@ -4,35 +4,25 @@
 PumpR is a simple desktop application for simulating the performance of centrifugal pumps handling pure fluids or mixtures
 
 ## Features
-- Interactive GUI built with PyQt5
-- Supports both pure fluids and mixtures using CoolProp
+- Interactive GUI built with PySide6
+- Supports both pure fluids and mixtures using CoolProp (mass-fraction weighted mixing)
 - User input for fluid composition, operating conditions, and pump parameters
-- Calculates pump performance metrics (flow, head, power, efficiency, specific speed, NPSH, etc.)
-- Visualizes performance curves and maps using matplotlib
-
-## Requirements 
-- Python 3.7+
-- [CoolProp](http://www.coolprop.org/)
-- [PyQt5](https://pypi.org/project/PyQt5/)
-- [matplotlib](https://matplotlib.org/)
-- [numpy](https://numpy.org/)
+- Calculates pump performance metrics: flow/head coefficients, impeller Reynolds number, dimensionless specific speed, hydraulic/shaft power, and power coefficient
+- NPSH analysis: NPSH required (from suction specific speed), NPSH available (from suction and vapor pressure) and the resulting margin, with a cavitation-risk warning
+- Performance curves (head, power, efficiency, NPSH) passing through the design point and speed-varying performance maps derived from the affinity laws
+- Export of the computed performance curves to CSV
 
 ## Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/faiqraedaya/PumpR
-   cd "PumpR"
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install PyQt5 matplotlib numpy CoolProp
-   ```
+```bash
+git clone https://github.com/faiqraedaya/PumpR
+cd PumpR
+uv sync
+```
 
 ## Usage
-1. **Launch the application:**
-   ```bash
-   python main.py
-   ```
+```bash
+uv run main.py
+```
 
 ## License
-This project is provided under the MIT License.
+[MIT](LICENSE)
