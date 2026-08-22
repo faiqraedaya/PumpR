@@ -20,14 +20,14 @@ Changelog:
 
 import sys
 from PySide6.QtWidgets import QApplication
-from src.ui.main_window import PumpSimulatorGUI
+from pumpr.ui.main_window import MainWindow
 
 def main():
     app = QApplication(sys.argv)
     app.setStyle('Fusion')
     app.setApplicationName("PumpR")
     app.setApplicationVersion("1.1.0")
-    window = PumpSimulatorGUI()
+    window = MainWindow()
     window.show()
     sys.exit(app.exec())
 

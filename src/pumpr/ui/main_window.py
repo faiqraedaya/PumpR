@@ -6,13 +6,13 @@ from PySide6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                                QFileDialog)
 from PySide6.QtGui import QFont
 
-from src.core.units import rpm_to_rad_s
-from src.core.properties import PropertyCache
-from src.core.performance import PumpPerformance, compute_curve_data, compute_map_data
-from src.ui.plot_canvas import PlotCanvas
-from src.ui.plots import plot_performance_curves, plot_performance_maps
-from src.ui.inputs import MixturePanel, OperatingConditionsPanel, PumpParametersPanel
-from src.ui.report import build_results_text, write_curves_csv
+from pumpr.core.units import rpm_to_rad_s
+from pumpr.core.properties import PropertyCache
+from pumpr.core.performance import PumpPerformance, compute_curve_data, compute_map_data
+from pumpr.ui.plot_canvas import PlotCanvas
+from pumpr.ui.plots import plot_performance_curves, plot_performance_maps
+from pumpr.ui.inputs import MixturePanel, OperatingConditionsPanel, PumpParametersPanel
+from pumpr.ui.report import build_results_text, write_curves_csv
 
 
 class MainWindow(QMainWindow):

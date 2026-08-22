@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (QGroupBox, QVBoxLayout, QHBoxLayout, QGridLayout,
                                QLabel, QPushButton, QComboBox, QDoubleSpinBox,
                                QTableWidget, QTableWidgetItem)
 
-from src.core.properties import Mixture
+from pumpr.core.properties import Mixture
 
 # CoolProp fluid names keyed by the labels shown in the component selector.
 COOLPROP_NAMES = {

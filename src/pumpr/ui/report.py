@@ -1,7 +1,7 @@
 """Result reporting: results-panel text and CSV export (no Qt dependency)."""
 import csv
 
-from src.core.units import k_to_c, pa_to_kpa, m3s_to_m3h, w_to_kw
+from pumpr.core.units import k_to_c, pa_to_kpa, m3s_to_m3h, w_to_kw
 
 # (CSV header, key in the curve-data dict)
 CSV_COLUMNS = [

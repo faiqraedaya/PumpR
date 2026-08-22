@@ -1,7 +1,7 @@
 """Pump performance calculations and parametric curve models (GUI-free)."""
 import numpy as np
 
-from src.core.units import G, m3s_to_m3h, rad_s_to_rpm, w_to_kw
+from pumpr.core.units import G, m3s_to_m3h, rad_s_to_rpm, w_to_kw
 
 
 class PumpPerformance:
